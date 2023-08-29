@@ -81,3 +81,8 @@ Run:
 ```
 docker-compose up
 ```
+
+## Note
+> If you are running the Flask and React server separately add Proxy of Flask server in React app
+
+> If you are using Docker then add http:<service_name>:5000 as proxy in React app
